@@ -1,0 +1,126 @@
+body {
+font-family: Helvetica;
+font-size: 18px;
+margin: 0;
+background-color: white;
+}
+
+.pagetitle {
+background-color: black
+}
+
+.pagetitle img {
+height: 1.5rem
+}
+
+.pagetitle p {
+font-size: 1rem;
+color: white;
+padding-left: 1rem;
+padding-top: 0.66rem;
+padding-bottom: 0.66rem;
+display: inline-block;
+}
+
+.mainbanner {
+display: flex;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+height: 20rem;
+background-size: cover;
+
+}
+
+.info {
+background-color: black;
+max-width: 20rem;
+color: white;
+margin-top: 9rem;
+
+
+
+
+}
+
+.info h3 {
+font-size: 1rem;
+font-weight: bold;
+padding-top: 2rem;
+padding-left: 3rem;
+padding-bottom: 0.25rem;
+}
+
+.info h1 {
+font-size: 2rem;
+font-weight: bold;
+padding-left: 3rem;
+padding-top: 0.25rem;
+}
+
+.navcontainer{
+display: flex;
+background-color: firebrick;
+justify-content: space-around;
+}
+
+.navcontainer li{
+color: white;
+display: inline-block;
+padding-top: 0.75rem;
+padding-bottom: 0.75rem;
+}
+
+.ContainerProducts {
+display: flex;
+justify-content: space-around;
+flex-flow: row wrap;
+}
+
+.pics {
+  margin-top: 3rem;
+}
+
+.productname {
+background-color: black;
+color: white;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+text-align: center;
+vertical-align: bottom;
+}
+
+.ContainerProducts img {
+width: 9rem;
+height: 9rem;
+padding: 2rem;
+border: 4px solid black;
+}
+
+.ContainerDetails {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.locationhours {
+background-color: black;
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+width: 336px;
+}
+
+.details {
+  flex-direction: column;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.footer {
+background-color: black;
+color: white;
+height: 5rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+
